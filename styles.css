@@ -2,6 +2,15 @@ h1, h2, p {
   text-align: center;
 }
 
-body{
-  background-color: orange;
+body {
+  background-color: #F5F5F5; /* Light gray */
+  color: #333333; /* Dark gray */
+}
+
+h1, h2 {
+  color: #2E8B57; /* Sea Green */
+}
+
+a {
+  color: #4682B4; /* Steel Blue */
 }
