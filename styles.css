@@ -10,3 +10,9 @@ p{
   color: red;
 }
 
+#page1{
+  width: 90%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+}
