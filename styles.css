@@ -256,4 +256,8 @@ footer {
     nav li {
         margin: 5px 0;
     }
+    
+    .pdf-viewer {
+        height: 500px;
+    }
 }
