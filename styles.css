@@ -1,14 +1,3 @@
-@media (min-width: 769px) {
-    html {
-        overflow-anchor: none;
-    }
-    body {
-        overflow-anchor: auto;
-        padding-top: 0;
-        margin-top: 0;
-    }
-}
-
 
 /* Base Styles */
 :root {
