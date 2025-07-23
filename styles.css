@@ -1,3 +1,15 @@
+@media (min-width: 769px) {
+    html {
+        overflow-anchor: none;
+    }
+    body {
+        overflow-anchor: auto;
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
+
+
 /* Base Styles */
 :root {
     --primary-color: #2c3e50;
@@ -75,19 +87,6 @@ nav a {
 nav a:hover {
     color: var(--secondary-color);
 }
-
-/* Section Styles */
-
-@media (min-width: 769px) {
-    body::before {
-        content: "";
-        display: block;
-        height: 0;
-        margin-top: -120px; /* Negative value of header height */
-        pointer-events: none;
-    }
-}
-
 
 section {
     padding: 40px 0;
