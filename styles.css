@@ -242,6 +242,37 @@ footer {
     border-radius: 4px;
 }
 
+/* Project Preview Styling */
+.project-preview {
+    margin: 15px 0;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.preview-image {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .preview-image {
+    transform: scale(1.02);
+}
+
+/* Project Links Enhancement */
+.project-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.project-links a {
+    flex: 1;
+    text-align: center;
+    padding: 8px 12px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .projects-grid {
