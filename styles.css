@@ -291,4 +291,23 @@ footer {
     .pdf-viewer {
         height: 500px;
     }
+
+    /* Add these new section compacting rules */
+    #about, #projects, #cv, #contact {
+        padding: 25px 0; /* Reduced from 40px */
+    }
+
+    section.container h2 {
+        margin-bottom: 15px; /* Reduced from 30px */
+        padding-bottom: 5px; /* Reduced from 10px */
+    }
+
+    .project-card {
+        padding: 15px; /* Reduced from 20px */
+    }
+
+    .skills li, .contact-links a {
+        padding: 6px 12px; /* More compact */
+        font-size: 0.9em;
+    }
 }
