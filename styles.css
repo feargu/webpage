@@ -1,10 +1,4 @@
 /* Base Styles */
-
-/* Add this to your base styles (not in media query) */
-html {
-    scroll-padding-top: 120px; /* Height of your header + nav */
-}
-
 :root {
     --primary-color: #2c3e50;
     --secondary-color: #3498db;
@@ -82,6 +76,7 @@ nav a:hover {
     color: var(--secondary-color);
 }
 
+/* Section Styles */
 section {
     padding: 40px 0;
 }
@@ -284,27 +279,17 @@ footer {
         grid-template-columns: 1fr;
     }
     
-    /* Updated Navigation - More Compact */
     nav ul {
-        flex-direction: row; /* Changed from column to row */
-        flex-wrap: wrap; /* Allows items to wrap if needed */
-        justify-content: center;
-        gap: 8px; /* Space between items */
-        padding: 5px 0; /* Reduced padding */
+        flex-direction: column;
+        align-items: center;
     }
     
     nav li {
-        margin: 0;
+        margin: 5px 0;
     }
     
     .pdf-viewer {
         height: 500px;
-    }
-
-    nav a {
-        padding: 8px 12px;
-        font-size: 0.9rem;
-        white-space: nowrap; /* Prevents text wrapping */
     }
 
     /* Add these new section compacting rules */
