@@ -280,13 +280,21 @@ footer {
     }
     
     nav ul {
-        flex-direction: row;
-        align-items: center;
+        flex-direction: row; /* Change from column to row */
+        flex-wrap: wrap; /* Allows items to wrap if needed */
+        justify-content: center;
+        gap: 8px; /* Space between items */
+        padding: 8px 0; /* Reduced vertical padding */
     }
     
     nav li {
-        margin: 5px 0;
+        margin: 0;
     }
+
+        nav a {
+        padding: 8px 12px; /* More compact buttons */
+        font-size: 0.9rem;
+        white-space: nowrap; /* Prevent text wrapping */
     
     .pdf-viewer {
         height: 500px;
